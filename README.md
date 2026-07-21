@@ -1,42 +1,357 @@
 # Sciencefairproject_exp1_webtech_keer
-A simple HTML5-based website developed as part of the Web Technology Lab.
-## 📖 About
+<!DOCTYPE html>
+<html>
 
-The Science Fair Project Site provides information about science fair projects, scientific terms, project ideas, and required materials. It demonstrates the use of basic HTML5 elements to create a structured and user-friendly webpage.
+<head>
+    <meta charset="UTF-8">
+    <title>Science Fair Project Site</title>
+</head>
 
-## ✨ Features
+<body bgcolor="lightcyan" text="black">
 
-- 🏠 Home Page
-- 📌 Navigation Links
-- 🌍 About Science Fair
-- 🖼 Clickable Science Image
-- 🔗 External & Internal Links
-- 📧 Email Link
-- 📞 Phone Link
-- 📊 Project Information Table
-- 📖 Description List
-- 📋 Ordered Nested List
-- 🧪 Unordered Nested List
+<!-- Header Section -->
 
-## 🛠 Technologies Used
+<div id="top">
 
-- HTML5
+<center>
 
-## 📂 Project Structure
+<h1>🧪 SCIENCE FAIR PROJECT SITE 🔬</h1>
 
-```
-Science-Fair-Project-Site/
-│── index.html
-│── README.md
-```
+<h3>Explore • Innovate • Discover</h3>
 
-## 🚀 How to Run
+<hr>
 
-1. Download or clone the repository.
-2. Open `index.html` in any web browser.
+</center>
 
-## 👩‍💻 Developed By
+</div>
 
-**Keerthana Sasikumar**
+<!-- Navigation Section -->
 
-Karunya Institute of Technology and Sciences
+<div>
+
+<h2>📌 Navigation</h2>
+
+<a href="#about">About</a> |
+<a href="#projects">Projects</a> |
+<a href="#terms">Scientific Terms</a> |
+<a href="#materials">Materials</a> |
+<a href="#contact">Contact</a> |
+<a href="#top">Back to Top</a>
+
+<hr>
+
+</div>
+
+<!-- About Section -->
+
+<div id="about">
+
+<h2>🌍 About Science Fair</h2>
+
+<p>
+The Science Fair Project Site provides students with innovative science
+project ideas and encourages them to develop creative thinking,
+problem-solving abilities, and presentation skills.
+</p>
+
+<p>
+Science fairs help students apply scientific concepts in real-life
+situations through experiments and working models.
+</p>
+
+</div>
+
+<!-- Image Section -->
+
+<div>
+
+<h2>🖼 Science Logo</h2>
+
+<a href="https://www.nasa.gov/" target="_blank">
+
+<img src="https://cdn-icons-png.flaticon.com/512/2784/2784487.png"
+alt="Science Icon"
+width="120"
+height="120">
+
+</a>
+
+<p>
+Click the image to visit NASA.
+</p>
+
+</div>
+
+<!-- Hyperlinks Section -->
+
+<div>
+
+<h2>🔗 Useful Links</h2>
+
+<p>
+
+🌐 External Website:
+<a href="https://www.nationalgeographic.com/" target="_blank">
+National Geographic
+</a>
+
+</p>
+
+<p>
+
+📧 Email:
+<a href="mailto:sciencefair@gmail.com">
+sciencefair@gmail.com
+</a>
+
+</p>
+
+<p>
+
+📞 Phone:
+<a href="tel:+919876543210">
++91 9876543210
+</a>
+
+</p>
+
+</div>
+
+<!-- Projects Section -->
+
+<div id="projects">
+
+<h2>🚀 Science Fair Projects</h2>
+
+<table border="2" cellpadding="10">
+
+<tr bgcolor="lightblue">
+
+<th>Project</th>
+
+<th>Category</th>
+
+<th>Difficulty</th>
+
+</tr>
+
+<tr>
+
+<td>🌞 Solar Water Heater</td>
+
+<td>Renewable Energy</td>
+
+<td>Medium</td>
+
+</tr>
+
+<tr>
+
+<td>🤖 Smart Irrigation System</td>
+
+<td>IoT</td>
+
+<td>Hard</td>
+
+</tr>
+
+<tr>
+
+<td>💧 Water Purification</td>
+
+<td>Environment</td>
+
+<td>Easy</td>
+
+</tr>
+
+<tr>
+
+<td>🌋 Volcano Model</td>
+
+<td>Chemistry</td>
+
+<td>Easy</td>
+
+</tr>
+
+</table>
+
+</div>
+
+<!-- Description List -->
+
+<div id="terms">
+
+<h2>📖 Scientific Terms</h2>
+
+<dl>
+
+<dt><b>Hypothesis</b></dt>
+
+<dd>An educated prediction before conducting an experiment.</dd>
+
+<br>
+
+<dt><b>Observation</b></dt>
+
+<dd>Collecting and recording information carefully.</dd>
+
+<br>
+
+<dt><b>Conclusion</b></dt>
+
+<dd>The final result obtained after the experiment.</dd>
+
+</dl>
+
+</div>
+
+<!-- Ordered Nested List -->
+
+<div>
+
+<h2>📋 Steps to Complete a Science Project</h2>
+
+<ol>
+
+<li>Select a Topic
+
+<ol>
+
+<li>Choose an interesting idea.</li>
+
+<li>Get teacher approval.</li>
+
+</ol>
+
+</li>
+
+<li>Research the Topic
+
+<ol>
+
+<li>Collect information.</li>
+
+<li>Prepare notes.</li>
+
+</ol>
+
+</li>
+
+<li>Build the Model</li>
+
+<li>Present the Project</li>
+
+</ol>
+
+</div>
+
+<!-- Unordered Nested List -->
+
+<div id="materials">
+
+<h2>🧪 Materials Required</h2>
+
+<ul>
+
+<li>Electronics
+
+<ul>
+
+<li>LED</li>
+
+<li>Battery</li>
+
+<li>Switch</li>
+
+</ul>
+
+</li>
+
+<li>Stationery
+
+<ul>
+
+<li>Chart Paper</li>
+
+<li>Marker</li>
+
+<li>Glue</li>
+
+</ul>
+
+</li>
+
+<li>Safety Items
+
+<ul>
+
+<li>Gloves</li>
+
+<li>Safety Goggles</li>
+
+</ul>
+
+</li>
+
+</ul>
+
+</div>
+
+<!-- Contact Section -->
+
+<div id="contact">
+
+<h2>📞 Contact Us</h2>
+
+<p>
+
+📧 Email:
+<a href="mailto:sciencefair@gmail.com">
+sciencefair@gmail.com
+</a>
+
+</p>
+
+<p>
+
+📞 Phone:
+<a href="tel:+919876543210">
++91 9876543210
+</a>
+
+</p>
+
+<p>
+
+🔝
+<a href="#top">
+Back to Top
+</a>
+
+</p>
+
+</div>
+
+<!-- Footer Section -->
+
+<div>
+
+<hr>
+
+<center>
+
+<h3>🌟 Thank You for Visiting 🌟</h3>
+
+<p>
+Science Fair Project Site | HTML5 Web Technology Lab
+</p>
+
+</center>
+
+</div>
+
+</body>
+
+</html>
